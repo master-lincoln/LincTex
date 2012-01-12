@@ -7,6 +7,7 @@ Functionality
 A simple robot that renders LaTeX code in a wave. It finds code beween $$ and $$ and replaces it with an image generated with the service http://www.forkosh.com/mathtex.html. It turns your formula into a picture when you submit the Blip. When you start editing a Blip the picture turns into code again. As far as I know this is the only LaTex robot that enables editing a formula without using a gadget. (at 2010-03-09) Written using Java and the v2 Robot API
 Demonstrates editing blips, inserting Images, using annotations, storing in DataDocument using filters and contexts, using installer for annotating
 
+![Screenshot](https://github.com/master-lincoln/LincTex/raw/master/img/screenshot.png)
 
 Origin
 -------
