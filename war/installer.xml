@@ -1,0 +1,14 @@
+<extension
+    name="LincTex"
+    thumbnailUrl="http://linc-tex.appspot.com/preview.png"
+    description="Converts text in Latex syntax to a formula">
+  <author name="Lincoln" email="master.lincoln@googlemail.com" /> 
+  <menuHook location="toolbar" text="Converts text in Latex syntax to a formula" 
+      iconUrl="http://linc-tex.appspot.com/logo.png">
+      <addParticipants>
+        <participant id="linc-tex@appsPf8pV8Ps8DM6pot.com" />
+      </addParticipants>
+      <annotateSelection key="robot.linctex" value="formula" />
+      <annotateSelection key="style/backgroundColor" value="rgb(200,200,200)" />
+  </menuHook>
+</extension>
